@@ -1,0 +1,49 @@
+.nav {
+    height: calc(3vw + 3vw);
+    width: 100%;
+
+    padding: 0 10%;
+
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo {
+        flex: 0.25;
+        img {
+            height: calc(2vh + 2vw);
+            width: calc(2vh + 2vw);
+            border-radius: 100%;
+        }
+    }
+
+    .nav_links {
+        flex: 0.5;
+
+        position: relative;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        font-weight: 800;
+
+        a {
+            color: white;
+        }
+
+        span{
+            font-size: calc(1.5vh + 1.5vw);
+            // padding: 10%;
+        }
+    }
+    .walletBtnContainer {
+        flex: 0.25;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+}
