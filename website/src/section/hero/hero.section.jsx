@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import "./hero.styles.scss";
 
@@ -19,20 +19,25 @@ function Hero() {
     <div className="hero">
       <div className="hero-info">
         <h1>EXPLORE NFT COLLECTION</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis temporibus ex dicta vero reprehenderit corporis aliquid molestiae maiores soluta quaerat.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
+          temporibus ex dicta vero reprehenderit corporis aliquid molestiae
+          maiores soluta quaerat.
+        </p>
         <div className="hero-btn">
-          <button className='defaultBtn'>Connect Wallet</button>
+          <button className="defaultBtn">Connect Wallet</button>
         </div>
       </div>
       <div className="gradient-overlay"></div>
-      <img src={Img1} className="heroImg heroImg1" alt="" />
-      <img src={Img2} className="heroImg heroImg2" alt="" />
-      <img src={Img3} className="heroImg heroImg3" alt="" />
-      <img src={Img4} className="heroImg heroImg4" alt="" />
-      <img src={Img5} className="heroImg heroImg5" alt="" />
-
+      <div className="hero__background">
+        <img src={Img1} className="heroImg heroImg1" alt="" />
+        <img src={Img2} className="heroImg heroImg2" alt="" />
+        <img src={Img3} className="heroImg heroImg3" alt="" />
+        <img src={Img4} className="heroImg heroImg4" alt="" />
+        <img src={Img5} className="heroImg heroImg5" alt="" />
+      </div>
     </div>
   );
 }
 
-export default Hero
+export default Hero;

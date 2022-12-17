@@ -4,14 +4,12 @@
     height: calc(30vh + 30vw);
     width: 100vw;
 
-    overflow-x: hidden;
-
     background: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(51, 147, 99, 1) 33%, rgba(2, 25, 29, 1) 100%);
 
     .hero-info {
         position: absolute;
-        top: 80%;
+        top: 100%;
         left: 50%;
         width: 75%;
 
@@ -34,40 +32,50 @@
             display: flex;
             justify-content: center;
             align-items: center;
-     
         }
     }
 
-    .heroImg {
-        position: absolute;
-        left: 50%;
-        bottom: 0;
+    .hero__background {
+        height: 100%;
+        width: 100%;
+        position: relative;
 
-        height: calc(25vh + 25vw);
-    }
+        overflow-x: hidden;
 
-    .heroImg1 {
-        transform: translateX(50%);
-        z-index: 1;
-    }
+        .heroImg {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+        }
 
-    .heroImg2 {
-        transform: translateX(0%);
-        z-index: 2;
-    }
+        .heroImg1 {
+            transform: translateX(50%);
+            z-index: 1;
+            height: calc(25vh + 25vw);
+        }
 
-    .heroImg3 {
-        transform: translateX(-50%);
-        z-index: 3;
-    }
+        .heroImg2 {
+            transform: translateX(-50%);
+            z-index: 3;
+            height: calc(32vh + 32vw);
+        }
 
-    .heroImg4 {
-        transform: translateX(-100%);
-        z-index: 2;
-    }
+        .heroImg3 {
+            transform: translateX(0%);
+            z-index: 2;
+            height: calc(28vh + 28vw);
+        }
 
-    .heroImg5 {
-        transform: translateX(-150%);
-        z-index: 1;
+        .heroImg4 {
+            transform: translateX(-100%);
+            z-index: 2;
+            height: calc(28vh + 28vw);
+        }
+
+        .heroImg5 {
+            transform: translateX(-150%);
+            z-index: 1;
+            height: calc(25vh + 25vw);
+        }
     }
 }

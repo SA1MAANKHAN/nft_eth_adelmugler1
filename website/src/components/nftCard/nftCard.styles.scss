@@ -1,0 +1,28 @@
+.nftCard {
+    height: calc(21vh + 21vw);
+    width: calc(18vh + 18vw);
+
+    padding: calc(1vh + 1vw);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #141b22;
+
+    margin: calc(1vh + 1vw);
+
+    .imgContainer {
+        height: 85%;
+        width: 100%;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    h2 {
+        width: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+.imageSlider{
+    // height: calc(80vh + 0vw);
+    width: 100vw;
+    padding:  0 0 calc(5vh + 5vw) 0;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2{
+        color: white;
+        margin: calc(.5vh + .5vw);
+    }
+
+}

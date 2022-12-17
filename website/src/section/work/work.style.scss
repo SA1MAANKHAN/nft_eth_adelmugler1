@@ -1,4 +1,42 @@
-.work{
+.work {
     height: calc(30vh + 30vw);
     background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+        color: white;
+        margin: calc(3vh + 3vw);
+    }
+
+    .infoCardContainer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        width: 90%;
+
+        .infocard {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h2 {
+                color: rgb(35 231 134);
+                margin: 0 0 calc(1vh + 1vw) 0;
+                
+            }
+
+            p{
+                color: white;
+                width: 80%;
+                text-align: center;
+            }
+        }
+    }
 }

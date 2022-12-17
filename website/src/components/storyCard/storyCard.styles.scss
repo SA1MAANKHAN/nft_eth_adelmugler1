@@ -1,0 +1,32 @@
+.storyCard {
+    height: calc(7vh + 7vw);
+    width: calc(10vh + 10vw);
+
+    background-color: #141B22;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        color: lime;
+        opacity: 0.5;
+        font-size: 3rem;
+        margin-bottom: 30%;
+    }
+
+    .storyCard_content {
+        height: 100%;
+        width: 100%;
+
+        background-color: transparent;
+        position: absolute;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
