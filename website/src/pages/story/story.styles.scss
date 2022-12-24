@@ -1,0 +1,43 @@
+.storyHero {
+    height: calc(30vh + 30vw);
+
+    background-color: black;
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .storyHero__left {
+        flex: 0.5;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+
+        padding: calc(3vh + 3vw);
+
+        h1 {
+            font-size: calc(3vh + 3vw);
+            margin-bottom: calc(1vh + 1vw);
+        }
+        h2 {
+            font-size: calc(2vh + 2vw);
+            margin-bottom: calc(1vh + 1vw);
+        }
+    }
+
+    .storyHero__right {
+        flex: 0.5;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: calc(20vh + 20vw);
+        }
+    }
+}

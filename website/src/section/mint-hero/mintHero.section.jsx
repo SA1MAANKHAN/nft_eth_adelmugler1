@@ -8,8 +8,8 @@ function MintHero() {
   return (
     <div className="mintHero">
       <div className="mintHero__left">
-        <h1>Super NFT</h1>
-        <h2>MarketPlace</h2>
+        <h1>Mint Your OWN!</h1>
+        <h2>Welcome to the mint page! Are you ready?</h2>
         <button className="defaultBtn">Connect Wallet</button>
       </div>
       <div className="mintHero__right">

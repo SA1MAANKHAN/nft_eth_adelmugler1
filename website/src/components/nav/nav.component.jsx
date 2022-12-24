@@ -13,10 +13,9 @@ function Nav() {
         />
       </Link>
       <div className="nav_links">
-        <Link to={"/"}>One</Link>
-        <Link to={"/"}>Two</Link>
-        <Link to={"/"}>Three</Link>
-        <Link to={"/mint"}>Four</Link>
+        <Link to={"/"}>About</Link>
+        <Link to={"/story"}>The Story</Link>
+        <Link to={"/mint"}>Mint</Link>
       </div>
       <div className="walletBtnContainer">
         <button className="defaultBtn">Connect</button>
